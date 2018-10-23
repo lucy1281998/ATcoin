@@ -1,0 +1,25 @@
+.benefits{
+    padding-top: 20px;
+}
+.Benefits h2{
+    
+    color: #002140;
+    font-family: serif;
+    font-weight: 600;
+    padding: 20px;  
+}
+.Benefits h6 {
+   
+    color: #002140;
+    margin-left: auto;
+    font-weight: 300;
+  
+}
+.card-body img{
+    width: 140px;
+    padding: 10px 10px;
+}
+
+.sc_icons_item_description{
+    color: #8d949e;
+}

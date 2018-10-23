@@ -1,0 +1,32 @@
+.evolution{
+
+    margin-top: 40px;
+    background-color: #e3e3e3;
+    padding: 0px;
+    
+}
+.img-fluid{
+    position: relative;
+    top:0px;
+}
+.evolution h6{
+    color: #002140;
+    padding: 50px 30px 10px;
+    position: relative;
+    right: 29px;
+    font-family: serif;
+    text-align: justify;
+}
+.evolution h2{
+
+    color: #002140;
+    font-family: serif;
+    font-weight: 600;
+    text-align: justify;
+    padding: 30px;
+}
+.evolution p{
+    color: #002140;
+    font-weight: 300;
+    text-align:left;
+}

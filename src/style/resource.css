@@ -1,0 +1,26 @@
+.resources
+{
+    
+    padding-top:80px;
+}
+.resources h2
+{
+    padding: 50px 30px;
+    color: #002140;
+    font-family: serif;
+    font-weight: 600;
+    text-align: justify;
+}
+.resources p{
+    color: #002140;
+    font-weight: 300;
+position: relative;
+text-align: justify; 
+left: 32px;   
+}
+.resources img{
+    padding-bottom: 40px;
+}
+.welcome {
+    color: #002140;
+}

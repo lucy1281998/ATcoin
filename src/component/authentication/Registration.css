@@ -1,0 +1,34 @@
+.register{
+    background-image: linear-gradient(to left bottom, #0d5185, #0057a8, #2658c8, #5e53e1, #9642f2);
+    background-size: cover;
+    height:660px;
+}
+.register form{
+    
+
+        position: relative; /* For positioning the pseudo-element */
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        padding: 30px;
+      
+}
+.register form:before {
+	
+  
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Create the box shadow at expanded size. */
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+
+  /* Hidden by default. */
+  opacity: 0;
+  transition: opacity 500ms;
+} 
+.register form:hover:before {
+    opacity: 1;
+    
+}

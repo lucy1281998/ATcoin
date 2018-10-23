@@ -1,0 +1,122 @@
+
+.navbar-right
+{
+    padding: 2px 0;
+}
+.navbar-toggler {
+}
+.navbar-toggler-icon {
+    
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.navbar-brand h3
+{
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+li Link
+{
+	margin: 20PX;
+	color: red;
+}
+.navbar
+{
+    background-color:transparent;
+     color: white;
+     background-color:#009270;
+     background-color:hsla(9, 2%, 6%, 0.40);
+   -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 10 7px 6px -6px #a3666e;  
+     
+    
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li a {
+    display: block;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+
+    text-decoration: none;
+}
+ul li a {
+    display: inline-block;
+    font-size: .7em;
+    list-style-type: none;
+    padding:1px;
+    color: blanchedalmond;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    
+   
+    font-weight: 700;
+font-family: inherit;    color: white;
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+   
+    color:yellow ;
+    text-decoration: none;
+}
+.btn-primary
+{
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size:13px;
+  padding:2px;
+  width:120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+.btn-primary span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-primary:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-primary:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-primary:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

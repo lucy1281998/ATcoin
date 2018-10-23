@@ -1,0 +1,40 @@
+ .footer{
+    background-image: url("../asset/footer.png");
+    padding-top: 20px;
+    
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.footer h3{
+    margin-top: 100px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+}
+.footer input{
+    height: 50px;
+    border-radius: 60px;
+}
+.footer button{
+    border-radius: 60px;
+    width: 100px;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.footer ul.social li{
+    padding: 10px 0;
+  
+}
+.footer ul.social li a i {
+    margin-right:12px;
+      font-size:10px;
+}

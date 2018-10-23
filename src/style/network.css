@@ -1,0 +1,46 @@
+.network{
+    background-image: url('../asset/pic2.jpg');
+    background-size: cover;
+    padding: 0;
+}
+.network1 h6{
+    color: white;
+    padding-top: 30px;
+}
+.network1  h2{
+    color: #ffffff;
+
+    font-size: 2.667em;
+    font-family: "Rubik",sans-serif;
+    font-size: 1.999em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-top: 1.0952em;
+    margin-bottom: 0.7619em;
+
+}
+.network1 p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ffffff;
+}
+.network1 img{
+    padding: 40px;
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+.network1 p{
+    padding-top:130px;
+}  

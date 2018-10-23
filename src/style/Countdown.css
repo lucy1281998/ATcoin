@@ -1,0 +1,39 @@
+.Countdown{
+    background-image:url('../asset/pic2.jpg');
+    color:white;
+    font-family: sans-serif;
+    background-size:cover;
+    height: auto;    
+
+    
+}
+.Countdown h4{
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: #f8b003;
+    font-weight: 600;
+
+}
+.Countdown-col-element{
+
+}
+.timer li{
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    
+  }
+  .timer ul{
+      margin-top: -20px;
+  }
+  
+  li span {
+    display: block;
+    font-size: 3.5rem;
+    align-items: center;
+    padding: 20px;
+    font-weight: 300;
+
+  }

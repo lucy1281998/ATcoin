@@ -41,7 +41,7 @@ class Navbar extends  Component
                 <Link className="nav-link" to="/contact">CONTACT</Link>
                 </li> 
                 <li className="nav-item">
-                <button class="button btn-primary">
+                <button class="btn btn-primary">
                 <Link className="nav-link" to="/login">LOGIN</Link>
                 </button>
                 </li>               

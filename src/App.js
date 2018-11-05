@@ -7,6 +7,7 @@ import Home from './component/home'
 import Login from './component/authentication/Login';
 import Contact from './component/contact/Contact';
 
+
 import Registration from './component/authentication/Registration';
 ReallySmoothScroll.shim();
 

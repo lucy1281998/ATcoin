@@ -13,6 +13,8 @@ import Footer from '../component/footer'
 import Countdown from '../component/Countdown'
 import {Link} from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom';
+import Typist from 'react-typist';
+
 import ScrollAnimation from 'react-animate-on-scroll';
 class Home extends Component
 {
@@ -29,8 +31,10 @@ const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? cur
                         <div className="row contain">
                             <div className="col-xl-6">
                             <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'>
+                            <Typist>
                             <h1 className="bounce">Secure and Anonymous<br/> Cryptocurrency</h1><br/><br/>
-
+                            
+                            </Typist>
                            </ScrollAnimation>
                                     <button className="btn btn-lg hvr-bounce-to-top animated slideInUp">
                                         <Link  to="/registration">GET STARTED</Link>
